@@ -1,2 +1,2 @@
 # My site
-This is my Singel page site
+This is my Single page site
