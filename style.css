@@ -103,7 +103,6 @@ header nav li a:hover, header nav li a:focus{
 	text-align:center;
 }
 .portfolio{
-	/*background-color:#e9a03e;*/
 	background:url('./img/portfolio/portfolio-bg.png');
 	color:#fff;
 	background-attachment:fixed;
@@ -437,3 +436,81 @@ ul#menu,header.secondary-dark-blue-bg{
 		visibility: hidden;
 	}
 }
+/** portfolio responsive styles 
+.portfolio{
+	background:none;
+	background-color: #eca535;
+}
+.portfolio-carousel li{
+	margin-right:0px;
+	margin-left:0px;
+}
+.portfolio-carousel h3{
+	font-size: 14px;
+}
+.portfolio .inner-content{
+	width: 200px;
+	height:100px;
+}
+.portfolio .portfolio-nav li{
+	margin-right:0px;
+}
+.team-carousel li{
+	margin-right:0px;
+	margin-left:0px;
+}
+.team-carousel h3{
+	font-size: 14px;
+}
+.team .inner-content{
+	width: 200px;
+	height:100px;
+}
+.team .team-nav li{
+	margin-right:0px;
+}
+.team-carousel p.description{
+	display:none;
+}
+@media screen and (max-width: 800px){
+	.portfolio-carousel h3{
+		font-size:12px;
+	}
+	.portfolio .inner-content{
+		width:180px;
+		height:150px;
+	}
+
+	.portfolio li p{
+		font-size: 12px;
+	}
+	
+	.team-carousel h3{
+		font-size:12px;
+	}
+	.team .inner-content{
+		width:180px;
+		height:150px;
+	}
+
+	.team li p{
+		font-size: 12px;
+	}
+}
+@media screen and (max-width: 550px){
+	.slider, .slider ul.slider-carousel, .slider ul.slider-carousel li{
+		height: 380px;
+	}
+	.slider ul.slider-carousel li h1{
+		margin-top: 70px;
+		margin-bottom: 30px;
+	}
+}
+.slider, .slider ul.slider-carousel, .slider ul.slider-carousel li{
+		height: 450px;
+}
+.slider ul.slider-carousel li h1{
+		margin-top: 100px;
+		margin-bottom: 30px;
+}
+**/
