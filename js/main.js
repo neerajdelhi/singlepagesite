@@ -109,6 +109,8 @@ jQuery(document).ready(function(){
 		}
 	});
 
+	//slicNave
+	$('#menu').slicknav();
 	
 	$(window).scroll(function(){
 		var top = $(window).scrollTop();
